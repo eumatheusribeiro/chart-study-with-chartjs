@@ -4,11 +4,11 @@ import { BaseChartDirective } from 'ng2-charts';
 import { Legenda } from '../interface/legenda';
 
 @Component({
-  selector: 'app-grafico-rosca',
-  templateUrl: './grafico-rosca.component.html',
-  styleUrls: ['./grafico-rosca.component.scss']
+  selector: 'app-grafico-torta',
+  templateUrl: './grafico-torta.component.html',
+  styleUrls: ['./grafico-torta.component.scss']
 })
-export class GraficoRoscaComponent implements OnInit {
+export class GraficoTortaComponent implements OnInit {
   options = {
     legend: {
       display: false

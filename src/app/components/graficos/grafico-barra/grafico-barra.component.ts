@@ -1,7 +1,7 @@
 import { Component, OnInit, ViewChild } from '@angular/core';
 import { ChartDataSets } from 'chart.js';
 import { BaseChartDirective } from 'ng2-charts';
-import { Legenda } from '../grafico-rosca/interface/legenda';
+import { Legenda } from '../interface/legenda';
 
 @Component({
   selector: 'app-grafico-barra',

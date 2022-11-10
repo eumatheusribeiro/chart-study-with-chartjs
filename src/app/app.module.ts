@@ -8,6 +8,7 @@ import { ChartsModule } from 'ng2-charts';
 import { GraficoBarraModule } from './components/graficos/grafico-barra/grafico-barra.module';
 import { GraficoPolarModule } from './components/graficos/grafico-polar/grafico-polar.module';
 import { GraficoRoscaModule } from './components/graficos/grafico-rosca/grafico-rosca.module';
+import { GraficoTortaModule } from './components/graficos/grafico-torta/grafico-torta.module';
 
 @NgModule({
   declarations: [
@@ -19,7 +20,8 @@ import { GraficoRoscaModule } from './components/graficos/grafico-rosca/grafico-
     GraficoRoscaModule,
     GraficoBarraModule,
     ChartsModule,
-    GraficoPolarModule
+    GraficoPolarModule,
+    GraficoTortaModule
   ],
   providers: [],
   bootstrap: [AppComponent]
