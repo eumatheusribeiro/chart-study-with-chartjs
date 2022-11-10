@@ -1,0 +1,17 @@
+<div style="width: 40%;">
+  <canvas
+  id="id"
+    baseChart
+    [chartType]="'polarArea'"
+    [datasets]="dataset"
+    [labels]="labels"
+    [options]="options"
+  >
+  </canvas>
+</div>
+<div>
+  <label *ngFor="let check of checks">
+    <input type="checkbox" [checked]="check.checkValue === true" (click)="toggleData(check)">
+    {{check.name}}
+  </label>
+</div>
